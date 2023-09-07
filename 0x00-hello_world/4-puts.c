@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- *  main - a programe that print a line with put function
+ *  main - a programe that print a line with puts function
  *
- * Description: this function prints using the puts function and return 0.
- *
- *  return 0 (return 0 means success)
+ *  Return: 0 (return 0 means success)
  */
 int main(void)
 {
