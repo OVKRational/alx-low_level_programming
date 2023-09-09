@@ -2,23 +2,30 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints the alphabet in lowercase
+ * main - Prints positive, zero and negative
  *
  * Return: Always 0(success)
  */
 int main(void)
 {
-	char letter;
+	int n;
 
-	for (letter = 'a'; letter <= 'z'; ++letter)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
 	{
-		putchar(letter);
+		printf("%d is postive", n);
 	}
-	for (letter = 'A'; letter <= 'Z'; ++letter)
+	else if (n == 0)
 	{
-		putchar(letter);
+		printf("%d is zero", n);
 	}
-	putchar('\n');
+	else
+	{
+		printf("%d is negative", n);
+	}
+	printf("\n");
 
 	return (0);
 }
