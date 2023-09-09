@@ -2,33 +2,22 @@
 #include <stdilb.h>
 #include <time.h>
 /**
- * main - Print the last digit
+ * main - Print the alphabet in lowercase, followed by a new line
  *
  * Return: Always 0(success)
  */
 int main(void)
 {
-	int n;
+	char letter;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	int m = n % 10;
-
-	if (m > 5)
+	for (letter = 'a'; letter <= 'z'; ++letter)
 	{
-		printf("Last digit of %d is %d and is greater than 5", n, m);
+		if (letter != 'e' && letter != 'q')
+		{
+			putchar(letter);
+		}
 	}
-	else if (m == 0)
-	{
-		printf("Last digit of %d is %d and is 0", n, m);
-	}
-	else
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0", n, m);
-	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
-
 }
