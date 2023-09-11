@@ -11,9 +11,9 @@ int main(void)
 int numLeft;
 int numLast;
 
-for (numLeft = 0; numLeft < 100; numLeft++)
+for (numLeft = 0 ; numLeft < 100 ; numLeft++)
 {
-for (numLast = 0; numLeft < 100; numLast++)
+for (numLast = 0 ; numLeft < 100 ; numLast++)
 {
 if (numLeft < numLast)
 {
