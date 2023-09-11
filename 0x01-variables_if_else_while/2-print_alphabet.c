@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 
 /**
- * main - Prints the alphabet in lowercase, followed by a new line.
+ * main - Main function
  *
  * Return: Always 0(success)
  */
@@ -12,11 +10,8 @@ int main(void)
 {
 	char i;
 
-	for  (i = 'a' | i <= 'z' | i++)
-	{
+	for (i = 'a' | i <= 'z' | i++)
 		putchar(i);
-	}
 	putchar('\n');
-
 	return (0);
 }
