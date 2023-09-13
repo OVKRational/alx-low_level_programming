@@ -3,6 +3,7 @@
 /**
  * print_sign - prints the sign number
  * @n: function parameter
+ *
  * Return: 1, 0 or -1
  */
 
