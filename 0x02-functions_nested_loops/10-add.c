@@ -5,10 +5,12 @@
  * @n1: the first number to be computed
  * @n2: the second number to be computed
  *
- * Return: 0
+ * Return: Integer value
  */
 
 int add(int n1, int n2)
 {
+
 	return (nl + n2);
+
 }
