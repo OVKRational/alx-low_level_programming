@@ -2,12 +2,12 @@
 
 /**
  * _isupper - checks the uppercase character
- * @c: functiona parameter
+ * @C: functiona parameter
  *
  * Return: 1 or 0
  */
 
-int _isupper(int c)
+int _isupper(int C)
 {
 	if (C >= 'A' && C <= 'Z')
 	{
