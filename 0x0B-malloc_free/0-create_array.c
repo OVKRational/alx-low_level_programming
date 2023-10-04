@@ -7,7 +7,7 @@
  * @c: input char
  *
  * Description: creat array of size and asign char c
- * Return: 0 or 1
+ * Return: one if, else NULL
  */
 
 char *create_array(unsigned int size, char c)
@@ -15,7 +15,7 @@ char *create_array(unsigned int size, char c)
 	char *str;
 	unsigned int j;
 
-	str - malloc(sizeof(char) * size);
+	str = malloc(sizeof(char) * size);
 	if (size == 0 || str == NULL)
 		return (NULL);
 
