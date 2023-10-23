@@ -29,7 +29,7 @@ neat->next = *head;
 return (neat);
 }
 
-for (i = 0; temp && i < idx; i++)
+for (i = 0; tem && i < idx; i++)
 {
 if (i == idx - 1)
 {
