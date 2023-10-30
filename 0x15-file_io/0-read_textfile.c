@@ -9,7 +9,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fbk;
+	int fdk;
 	ssize_t ovk, eva;
 	char *ken;
 
