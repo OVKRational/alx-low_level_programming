@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints it own opcodes
+ * main - function prints it own opcodes
  * @argc: agruments
  * @argv: array
  *
